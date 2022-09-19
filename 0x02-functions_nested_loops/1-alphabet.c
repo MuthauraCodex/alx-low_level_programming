@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase
+ * print_alphabet - prints the english alphabet from a-z
  * Return: 0
+ *
  */
 void print_alphabet(void)
 {
@@ -9,7 +10,7 @@ void print_alphabet(void)
 
 	while (c <= 'z')
 	{
-		_puchar(c);
+		_putchar(c);
 		c++;
 	}
 	_putchar('\n');

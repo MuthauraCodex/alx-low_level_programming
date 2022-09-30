@@ -1,10 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * Description: Header file with functions in libmy.a.
- */
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
